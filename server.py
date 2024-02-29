@@ -1,6 +1,7 @@
 import socket
 import speech_recognition as sr
 
+# This is serve code 
 def start_server(host, port): 
 
     # Create a socket object and bind to the host and port
