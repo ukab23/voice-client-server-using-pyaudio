@@ -1,7 +1,7 @@
 import socket
 import speech_recognition as sr
 
-
+# This is client code
 def send_audio_data(host, port, audio_file_path):
     # Create a socket object and connect to the server
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
